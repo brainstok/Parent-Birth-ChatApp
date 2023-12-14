@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.PhoneInputCountry {
+  display: none;
+}
+
+.staging {
+  position: fixed;
+  background-color: red;
+  color: white;
+  width: 50%;
+  left: 50%;
+  top: 5px;
+  border-radius: 5px;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 10000;
+}
+
+df-messenger {
+  --df-messenger-button-titlebar-color: #f9f2e8;
+  --df-messenger-font-color: #263238;
+  --df-messenger-input-box-color: white;
+  --df-messenger-input-placeholder-font-color: #757575;
+  --df-messenger-input-font-color: #516e85;
+  --df-messenger-send-icon: #516e85;
+
+  --df-messenger-bot-message: white;
+  --df-messenger-font-color: #1f4b4c;
+  --df-messenger-user-message: #f9f2e8;
+  --df-messenger-minimized-chat-close-icon-color: #1f4b4c;
+  --df-messenger-button-titlebar-font-color: #1f4b4c;
+}
