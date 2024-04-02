@@ -295,6 +295,7 @@ exports.handleAiResponse = async (patientId) => {
     const lastPatientMassage = await getLastPatientMessage(patientId);
     if (lastPatientMassage?.body) {
       return await runCompletion(lastPatientMassage.body);
+      console.log("finished");
     } else {
       throw new Error("Patient does not have a last message");
     }
